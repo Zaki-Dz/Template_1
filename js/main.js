@@ -16,7 +16,7 @@ navBtn.addEventListener('click', toggleNav)
 window.addEventListener('click', e => {
 	if (e.target != navBtn) {
 		nav.style.display = 'none'
-		isOpen = !isOpen
+		isOpen = false
 	}
 })
 
